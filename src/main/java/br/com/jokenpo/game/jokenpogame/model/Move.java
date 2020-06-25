@@ -19,8 +19,6 @@ public class Move {
 	@ManyToMany(mappedBy = "moves")
     private List <Player> players;
 	
-	//private List<duel> duel;
-	
 	private String power;
 
 	public Long getId() {
@@ -39,16 +37,6 @@ public class Move {
 		this.power = power;
 	}
 
-//	public List<Move> getDuel() {
-	//	return duel;
-	//}
-
-	//public void setDuel(List<Move> duel) {
-		//this.duel = duel;
-	//}
-	
-	
-	
 	
 	
 	

@@ -15,7 +15,7 @@ public class Play {
 	private Long move_id;
 	
 	private Long player_id;
-
+	
 	public Long getMove_id() {
 		return move_id;
 	}
